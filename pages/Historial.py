@@ -117,17 +117,17 @@ else:
                 col1, col2 = st.columns(2)
     
                 with col1:
-                    st.markdown(f"👤 Nombre:**  {datos['nombre']}")
-                    st.markdown(f"❔ Sexo:**  {datos['sexo']}")
-                    st.markdown(f"🎂 Fecha de nacimiento:**  {datos['fecha_nacimiento']}")
-                    st.markdown(f"🩸 Grupo sanguíneo:**  {datos['grupo_sanguineo']}")
-                    st.markdown(f"🏥 Obra social:**  {datos['obra_social']}")
+                    st.markdown(f"👤 Nombre:  {datos['nombre']}")
+                    st.markdown(f"❔ Sexo:  {datos['sexo']}")
+                    st.markdown(f"🎂 Fecha de nacimiento:  {datos['fecha_nacimiento']}")
+                    st.markdown(f"🩸 Grupo sanguíneo:  {datos['grupo_sanguineo']}")
+                    st.markdown(f"🏥 Obra social:  {datos['obra_social']}")
         
                 with col2:
-                    st.markdown(f"📞 Teléfono:**  {datos['telefono']}")
-                    st.markdown(f"📟 Contacto de emergencia:**  {datos['contacto_emergencia']}")
-                    st.markdown(f"📏 Altura:**  {datos['altura']} cm")
-                    st.markdown(f"⚖ Peso:**  {datos['peso']} kg")
+                    st.markdown(f"📞 Teléfono:  {datos['telefono']}")
+                    st.markdown(f"📟 Contacto de emergencia:  {datos['contacto_emergencia']}")
+                    st.markdown(f"📏 Altura:  {datos['altura']} cm")
+                    st.markdown(f"⚖ Peso:  {datos['peso']} kg")
 
                 # Sección 2: Medicación actual
                 st.subheader("💊 Medicación actual")
@@ -235,8 +235,8 @@ if st.session_state.get("logged_in"):
     with st.sidebar:
         crear_logo()
         st.markdown("---")
-        st.markdown(f"👤 Usuario:** {st.session_state.username}")
-        st.markdown(f"👥 Rol:** {st.session_state.rol}")
+        st.markdown(f"👤 Usuario: {st.session_state.username}")
+        st.markdown(f"👥 Rol: {st.session_state.rol}")
         st.markdown("---")
         
         # Mostrar información sobre páginas accesibles
