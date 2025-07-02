@@ -1,11 +1,11 @@
-[browser.gatherUsageStats]
-enabled = false
+[browser]
+gatherUsageStats = false
 
 [pages]
-[pages.Administración]
+[pages.Administracion]
 disabled = true
 
-[pages.Consultasmédicas]
+[pages.ConsultasMedicas]
 disabled = true
 
 [pages.Estudios]
@@ -14,82 +14,5 @@ disabled = true
 [pages.Medicamentos]
 disabled = true
 
-[pages.Historialclínico]
+[pages.HistorialClinico]
 disabled = true
-
-[browser.gatherUsageStats]
-enabled = false
-
-[pages]
-[pages.Administración]
-disabled = true
-
-[pages.Consultasmédicas]
-disabled = true
-
-[pages.Estudios]
-disabled = true
-
-[pages.Medicamentos]
-disabled = true
-
-[pages.Historialclínico]
-disabled = true
-
-[browser.gatherUsageStats]
-enabled = false
-
-[pages]
-[pages.Administración]
-disabled = true
-
-[pages.Consultasmédicas]
-disabled = true
-
-[pages.Estudios]
-disabled = true
-
-[pages.Medicamentos]
-disabled = true
-
-[pages.Historialclínico]
-disabled = true
-
-[browser.gatherUsageStats]
-enabled = false
-
-[pages]
-[pages.Administración]
-disabled = true
-
-[pages.Consultasmédicas]
-disabled = true
-
-[pages.Estudios]
-disabled = true
-
-[pages.Medicamentos]
-disabled = true
-
-[pages.Historialclínico]
-disabled = true
-
-[browser.gatherUsageStats]
-enabled = false
-
-[pages]
-[pages.Administración]
-disabled = true
-
-[pages.Consultasmédicas]
-disabled = true
-
-[pages.Estudios]
-disabled = true
-
-[pages.Medicamentos]
-disabled = true
-
-[pages.Historialclínico]
-disabled = true
-
