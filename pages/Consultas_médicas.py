@@ -151,7 +151,7 @@ else:
                     else:
                         st.dataframe(df_historial[["Fecha Consulta", "Especialidad", "Detalle Consulta", "Gravedad"]])
 
-                        st.markdown("### 🗂 Detalles adicionales por consulta")
+                        st.markdown("### 🗂️ Detalles adicionales por consulta")
                         for idx, row in df_historial.iterrows():
                             with st.expander(f"🗓 {row['Fecha Consulta']} | Gravedad: {row['Gravedad']}"):
                                 st.write(f"👩‍⚕ Médico: {row['Médico']}")
