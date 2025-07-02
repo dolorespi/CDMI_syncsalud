@@ -419,8 +419,8 @@ if st.session_state.get("logged_in"):
     with st.sidebar:
         crear_logo()
         st.markdown("---")
-        st.markdown(f"👤 **Usuario: {st.session_state.username}")
-        st.markdown(f"👥 **Rol: {st.session_state.rol}")
+        st.markdown(f"👤 Usuario: {st.session_state.username}")
+        st.markdown(f"👥 Rol: {st.session_state.rol}")
         st.markdown("---")
         
         # Mostrar información sobre páginas accesibles
